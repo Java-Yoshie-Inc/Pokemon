@@ -1,0 +1,51 @@
+package de.yoshie2000.pokemon.objects;
+
+import de.yoshie2000.pokemon.Direction;
+import de.yoshie2000.pokemon.maths.Vector;
+import de.yoshie2000.pokemon.sprite.AnimationIndex;
+
+public abstract class ObjectController {
+	
+	protected Vector position;
+	
+	protected AnimationIndex animationIndex;
+	
+	protected boolean canMove = true, isMoving = false;
+
+	public ObjectController() {
+		position = new Vector(0, 0);
+	}
+	
+	public ObjectController(Vector position) {
+		this.position = position;
+	}
+	
+	public abstract void update();
+	
+	public abstract void move(Direction direction);
+	
+	public boolean isCanMove() {
+		return canMove;
+	}
+
+	public void setCanMove(boolean canMove) {
+		this.canMove = canMove;
+	}
+	
+	public Vector getPosition() {
+		return position;
+	}
+	
+	public void setPosition(Vector position) {
+		this.position = new Vector(position.x, position.y);
+	}
+
+	public AnimationIndex getAnimationIndex() {
+		return animationIndex;
+	}
+
+	public void setAnimationIndex(AnimationIndex animationIndex) {
+		this.animationIndex = animationIndex;
+	}
+	
+}

@@ -1,0 +1,45 @@
+package de.yoshie2000.pokemon.engine;
+
+import de.yoshie2000.pokemon.maths.Vector;
+
+public abstract class ObjectController {
+	
+	protected Vector position;
+	protected int spriteIndex = 0;
+	protected boolean reverseImage = false, canMove = true;
+	
+	public ObjectController() {
+		position = new Vector(0, 0);
+	}
+	
+	public ObjectController(Vector position) {
+		this.position = position;
+	}
+	
+	public abstract void update();
+	
+	public Vector getPosition() {
+		return position;
+	}
+	
+	public void setPosition(Vector position) {
+		this.position = position;
+	}
+
+	public boolean isReverseImage() {
+		return reverseImage;
+	}
+
+	public void setReverseImage(boolean reverseImage) {
+		this.reverseImage = reverseImage;
+	}
+
+	public int getSpriteIndex() {
+		return spriteIndex;
+	}
+	
+	public void setSpriteIndex(int spriteIndex) {
+		this.spriteIndex = spriteIndex;
+	}
+	
+}

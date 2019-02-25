@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.GameLauncher"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.sprite.Sprite"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.ObjectController"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.GameObject"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.PlayerController"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.AnimationIndex"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.tests.xml.Entity"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.tiled.TiledMap"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.MapData"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.Map"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Graphics"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Image"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.Dialogue"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.TrueTypeFont"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Font"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Input"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.DialogueData"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.maths.Vector"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Color"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.Direction"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.map.MapSwitchData"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.sprite.AnimationIndex"/>
+<fullyQualifiedTypeName name="de.yoshie2000.pokemon.engine.Game"/>
+</qualifiedTypeNameHistroy>

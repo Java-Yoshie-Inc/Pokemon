@@ -1,0 +1,25 @@
+package de.yoshie2000.pokemon;
+
+public class DialogueData {
+
+	private String[] text;
+	private int box;
+
+	public DialogueData(String[] text, int box) {
+		this.text = text;
+		this.box = box;
+	}
+	
+	public DialogueData(String line) {
+		
+	}
+
+	public String[] getText() {
+		return text;
+	}
+
+	public int getBox() {
+		return box;
+	}
+
+}

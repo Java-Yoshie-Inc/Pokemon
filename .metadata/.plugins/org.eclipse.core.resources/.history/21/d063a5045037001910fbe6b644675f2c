@@ -1,0 +1,5 @@
+package de.yoshie2000.pokemon.engine;
+
+public enum Direction {
+
+}

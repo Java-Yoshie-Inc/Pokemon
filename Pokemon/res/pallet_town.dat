@@ -1,0 +1,6 @@
+A=TRAINER TIPS&Press START to open the MENU!~0
+B=PALLET TOWN|Shades of your journey await!~1
+C=OAK POKEMON RESEARCH LAB~1
+D*=pallet_town_1,48,144,UP
+E*=pallet_town_2,48,144,UP
+F*=pallet_town_4,96,208,UP

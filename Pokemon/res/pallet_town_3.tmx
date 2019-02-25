@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="11" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="tiles.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="11" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACoXOWw7BYBCG4blkA5322nkjzqI2QRy6COeN4IJgFRTdSBF78CaVtCW4eJJ/Zr7JP74hcsUNB1PkiLvx6YGiipRQRsoSSaOigaqG7xoWWGKFIbkRGhpI8EcSdQ17my/a5DpYv+potku/hz4GcMz4bhM2WnCZnXDGBd5bdosd9shwaxY55FGw4tnoDWNmE0wxw/xH9p8ni7zJ04wBAAA=
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="11" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACmNgGAWDBQAAzBamtYwBAAA=
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="11" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACmNgGJyAVwK7+EcxBoZPQPxZjL7uoQcAAKr/FA+MAQAA
+  </data>
+ </layer>
+</map>

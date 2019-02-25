@@ -1,0 +1,5 @@
+A*=pallet_town,96,112,DOWN
+B=It smells delicious!|Somebody's been cooking here.~0
+C=Dishes and plates are neatly lined up.~0
+D=TV
+E*=pallet_town_3,128,32,RIGHT

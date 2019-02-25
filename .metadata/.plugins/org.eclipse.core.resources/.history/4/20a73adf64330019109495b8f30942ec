@@ -1,0 +1,31 @@
+package de.yoshie2000.pokemon;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class MapData {
+	
+	private int[][] data;
+	
+	public MapData(String name, int width, int height) throws Exception {
+		BufferedReader reader = new BufferedReader(new FileReader(name + ".col"));
+		String line;
+		data = new int[width][height];
+		
+		int y = 0;
+		while((line = reader.readLine()) != null) {
+			String[] rowData = line.split(",");
+			for(int x = 0; x < width; x++) {
+				data[x][y] = Integer.valueOf(rowData[x]);
+			}
+			y++;
+		}
+		
+		reader.close();
+	}
+
+	public int[][] getData() {
+		return data;
+	}
+	
+}

@@ -1,0 +1,32 @@
+package de.yoshie2000.pokemon;
+
+public class DialogueData {
+
+	private String[] text;
+	private int box;
+
+	public DialogueData(String[] text, int box) {
+		this.text = text;
+		this.box = box;
+	}
+	
+	public DialogueData(String line) {
+		String[] split = line.split("~");
+		text = split[0].split("&");
+		box = Integer.valueOf(split[1]);
+		
+		if(text[0].equals("TV")) {
+			box = 0;
+			text = new String[] {""};
+		}
+	}
+
+	public String[] getText() {
+		return text;
+	}
+
+	public int getBox() {
+		return box;
+	}
+
+}
