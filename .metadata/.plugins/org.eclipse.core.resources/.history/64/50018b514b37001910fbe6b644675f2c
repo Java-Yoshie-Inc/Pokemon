@@ -1,8 +1,0 @@
-package de.yoshie2000.pokemon.map;
-
-public class MapSwitchData {
-	
-	private String mapName;
-	private int x, y;
-	
-}

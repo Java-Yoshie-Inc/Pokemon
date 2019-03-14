@@ -1,5 +1,6 @@
 package de.yoshie2000.pokemon;
 
+import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
@@ -12,13 +13,13 @@ import de.yoshie2000.pokemon.objects.PlayerController;
 import de.yoshie2000.pokemon.sprite.Sprite;
 
 public class Main implements GameLauncher {
-
+	
 	private GameObject player;
 
 	public static void main(String[] args) throws SlickException {
 		new Main();
 	}
-
+	
 	public Main() throws SlickException {
 		Game.create("Pokemon Fire Red", 800, 600, false, 9999999, true, this);
 	}
@@ -34,12 +35,13 @@ public class Main implements GameLauncher {
 
 	@Override
 	public void update(GameContainer container) {
-
+		
 	}
 
 	@Override
 	public void render(GameContainer container, Graphics graphics) {
-
+		graphics.setColor(Color.white);
+		graphics.drawString(player.getController().getPosition().toString(), 100, 100);
 	}
 
 }
